@@ -1,0 +1,52 @@
+
+.a {
+    text-decoration:none ;
+}
+body{
+    font-family: arial;
+    background-image: url(Screenshot_20200823-154208_Photos.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ul{
+    position: absolute;
+    list-style: none;
+    
+    top: 70px;
+    width: 100%;
+}
+img{
+    width: 100px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}nav{
+    position:absolute;
+    background-color: rgba(16, 16, 16,.5);
+    width: 350px;
+    height: 500px;
+    left: -390px;
+    transition: all .5s;
+    
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+    
+}
+.a{
+    
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+.a:hover{
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+label{
+    padding: 1px;
+    position: absolute;
+    z-index: 1 ;
+}

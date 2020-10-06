@@ -1,0 +1,26 @@
+/**------redes------**/
+#redes{
+    width: 1346px;
+    height: 420px;
+    background-color: rgba(158, 158, 158, 0.527);
+}
+#naosei{
+    background-color: none;
+    width: 245px;
+    height: 420px;
+    margin-top: -400px;
+    margin-left: 1100px;
+}
+#rede{
+    margin-top: 00px;
+    margin-left: 1346;
+    background-color:none;
+   width:1146px;
+   height: 400px;
+
+}
+.twit{
+    margin-left: 90px;
+    margin-top: 30px;
+width: 80px;
+}
